@@ -12,7 +12,7 @@ namespace ListManager
         {
             string input = Console.ReadLine();
             string item = input.Substring(1, input.Length - 1);
-            if (input.Substring(0).Contains("+"))
+            if (input.Substring(0).Contains("+") )
             {
                 Items.Add(item);
                 Console.WriteLine("Added to the list! Updated list is : ");
